@@ -6,5 +6,3 @@ In the project, a website will be create.
 Which helps exchange Student and other Humans traveling to Rügen with trains.
 At the history section you will see picture of steam and old diesel trains.
 On the bottom of the picture you will see, what train it is, what type of train it is and where you can find it.
-
-
