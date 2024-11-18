@@ -11,7 +11,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Historical trains of Rügen</title>
-    <!--TODO: Remove the black from the picture-->
     <link rel="icon" type="image/x-icon" href="trainsubway-neo-springgreen-symbol-duotone.png">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/main.css">
@@ -19,40 +18,59 @@
 <body class="container">
 <!-- Uses a header that contracts as the page scrolls down. -->
 <style>
-    .demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
-      padding-right: 0;
-    }
-</style>
-
-    <!--FIXME: Anderes Layout, welches mit einer Seitenleiste und link, mit einem Header der nicht veruscht-->
-    <div class="demo-layout-waterfall mdl-layout mdl-js-layout">
-      <header class="mdl-layout__header mdl-layout__header--waterfall">
-        <!-- Top row, always visible -->
-        <div class="mdl-layout__header-row">
-          <!-- Title -->
-          <span class="mdl-layout-title">
-            <span class="material-symbols-outlined">
-              train
-            </span>
+  .demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
+    padding-right: 0;
+  }
+  </style>
+  
+  <div class="demo-layout-waterfall mdl-layout mdl-js-layout">
+    <header class="mdl-layout__header mdl-layout__header--waterfall">
+      <!-- Top row, always visible -->
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">
+          <span class="material-symbols-outlined">
+            train
           </span>
-          <div class="mdl-layout-spacer"></div>
-          <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
-                      mdl-textfield--floating-label mdl-textfield--align-right">
-            <div class="mdl-textfield__expandable-holder">
-              <input class="mdl-textfield__input" type="text" name="sample"
-                     id="waterfall-exp">
-            </div>
+        </span>
+        <div class="mdl-layout-spacer">
+          
+        </div>
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right">
+          <div class="mdl-textfield__expandable-holder">
+            <input class="mdl-textfield__input" type="text" name="sample" id="waterfall-exp">
           </div>
         </div>
-      </header>
-      <main class="mdl-layout__content">
+      </div>
+      <!-- Bottom row, not visible on scroll -->
+      <div class="mdl-layout__header-row">
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation -->
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="">Impressum</a>
+        </nav>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">
+        <span class="material-symbols-outlined">
+          train
+        </span>
+      </span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">History</a>
+        <a class="mdl-navigation__link" href="">Collection</a>
+      </nav>
+    </div>
+    <main class="mdl-layout__content">
         <div class="titillium-web-regular page-content">
           <h4>History</h4>
           Train<br>
           Train Station<br>
           Railroad<br>
-        </div>
-      </main>
-    </div>
+      </div>
+    </main>
+  </div>
+
 </body>
 </html>
