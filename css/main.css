@@ -68,19 +68,19 @@ body {
   left: 216px;
   position: absolute;
   top: 300px;
-  width: 46px;
+  width: 50px;
 }
 .discount {
   left: 288px;
   position: absolute;
   top: 258px;
-  width: 46px;
+  width: 50px;
 }
 .cart {
   left: 324px;
   position: absolute;
   top: 188px;
-  width: 46px;
+  width: 50px;
 }
 .menu {
   -webkit-tap-highlight-color: transparent;
