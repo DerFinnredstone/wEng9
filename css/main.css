@@ -65,21 +65,21 @@ body {
   clip-path: polygon(200px 200px, 450px 0, 450px 344px);
 }
 .card {
-  left: 216px;
+  left: 210px;
   position: absolute;
-  top: 300px;
+  top: 325px;
   width: 50px;
 }
 .discount {
-  left: 288px;
+  left: 284px;
   position: absolute;
-  top: 258px;
+  top: 283px;
   width: 50px;
 }
 .cart {
-  left: 324px;
+  left: 320px;
   position: absolute;
-  top: 188px;
+  top: 213px;
   width: 50px;
 }
 .menu {
